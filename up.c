@@ -6,7 +6,7 @@
 /*   By: ldu-pree <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/09 17:45:33 by ldu-pree          #+#    #+#             */
-/*   Updated: 2019/07/10 16:52:34 by ldu-pree         ###   ########.fr       */
+/*   Updated: 2019/07/16 15:07:43 by ldu-pree         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	up()
 		j = 0 - pix;
 		while (j <= 0)
 		{
-			mlx_pixel_put(mlx, win, ox - i + pix, oy - j, 0x00000000);
+			mlx_pixel_put(mlx, win, ox - i + pix, oy - j, colour);
 		j++;
 		}
 		i++;

@@ -6,7 +6,7 @@
 /*   By: ldu-pree <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/09 15:28:50 by ldu-pree          #+#    #+#             */
-/*   Updated: 2019/07/10 16:37:21 by ldu-pree         ###   ########.fr       */
+/*   Updated: 2019/07/16 15:13:32 by ldu-pree         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int ox;
 int maxy;
 int maxx;
 int pix;
+int colour;
 typedef struct		s_list
 {
 	void			*mlx;
@@ -38,5 +39,6 @@ void	right();
 void	place();
 void	up();
 void	down();
+void	selectt();
 #endif
 

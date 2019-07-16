@@ -6,7 +6,7 @@
 /*   By: ldu-pree <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/09 17:23:36 by ldu-pree          #+#    #+#             */
-/*   Updated: 2019/07/10 16:53:13 by ldu-pree         ###   ########.fr       */
+/*   Updated: 2019/07/16 15:07:19 by ldu-pree         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	square()
 		j = 0;
 		while (j <= pix)
 		{
-			mlx_pixel_put(mlx, win, ox - i, oy - j + pix, 0x00000000);
+			mlx_pixel_put(mlx, win, ox - i, oy - j + pix, colour);
 		j++;
 		}
 		i++;
